@@ -241,5 +241,6 @@ function removerProdutoCarrinho(nomeDoProduto, quantidadeProduto) {
     if (removeuItem == true){
         carrinho = novoCarrinho
         quantidade = novaQuantidade
+        console.log("Produto removido com sucesso")
     }
 }
